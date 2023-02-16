@@ -19,8 +19,7 @@ margin: 0 auto;
 #header{
 height: 30px;
 max width: 90%;
-margin: 0 auto;
-}
+margin: 0 auto; }
 
 #header .container{
 border-bottom: 1px solid #828282;
@@ -58,6 +57,7 @@ font-size: 34px;
 line-height: 46px;
 color: #070707;
 text-align: center;
+margin-top: 60px;
 }
 
 .denisnovik {

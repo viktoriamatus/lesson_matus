@@ -19,15 +19,15 @@
         </nav>
       </div>
     </header>
-    <main>
-      <div id="first-screen">
+    <main id="main">
+      <div class="first-screen">
         <div class="container">
           <h1>Denis Novik</h1>
           <img src="./img/photo.jpg" alt="Denis Novik" class="denisnovik" />
         </div>
       </div>
 
-      <div id="about">
+      <section class="about" id="about_me">
         <div class="container">
           <h2>About me</h2>
           <div class="“textwrapper”">
@@ -45,25 +45,21 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="skills">
+      <section class "skills" id="skills">
         <div class="container">
           <h2>Skills</h2>
           <p>I work in such programs as</p>
           <ul class="programlist">
             <li>
-              <section class="skillicon">
                 <img src="./img/Ps.png" alt="logo adobe photoshop" />
-              </section>
               <p>
-                Adobe <br />
-                Photoshop
+                Adobe <br /> Photoshop
               </p>
 
-              <section class="stars">
-                <span>
-                  <img src="./img/Vectorblack-star.svg" alt="black-star"
+              <div class="stars">
+                <span><img src="./img/Vectorblack-star.svg" alt="black-star"
                 /></span>
                 <span
                   ><img src="./img/Vectorblack-star.svg" alt="black-star"
@@ -77,17 +73,17 @@
                 <span
                   ><img src="./img/Vectorgray-star.svg" alt="gray-star"
                 /></span>
-              </section>
+                </div>
             </li>
             <li>
-              <section class="skillicon">
+              <div class="skillicon">
                 <img src="./img/Ai.png" alt="logo adobe illustrator" />
-              </section>
+              </div>
               <p>
                 Adobe <br />
                 Illustrator
               </p>
-              <section class="stars">
+              <div class="stars">
                 <span
                   ><img src="./img/Vectorblack-star.svg" alt="black-star"
                 /></span>
@@ -103,7 +99,7 @@
                 <span
                   ><img src="./img/Vectorgray-star.svg" alt="gray-star"
                 /></span>
-              </section>
+              </div>
             </li>
 
             <li>
@@ -112,7 +108,7 @@
                 Adobe <br />
                 After Effects
               </p>
-              <section class="stars">
+              <div class="stars">
                 <span
                   ><img src="./img/Vectorblack-star.svg" alt="black-star"
                 /></span>
@@ -128,7 +124,7 @@
                 <span
                   ><img src="./img/Vectorgray-star.svg" alt="gray-star"
                 /></span>
-              </section>
+              </div>
             </li>
             <li>
               <section class="skillicon">
@@ -158,77 +154,58 @@
         </div>
       </div>
 
-      <div id="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <h2>Portfolio</h2>
-
           <div class="portfolio-item">
-            <section class="portfolio-img">
-              <img src="./img/Fashion-Store.png" alt="portfolio example 1" />
-            </section>
-            <section class="portfolio-link">
-              <a href="#">
-                Online fashion store <br />
-                - Homepage
-              </a>
-            </section>
+            <div>
+<img src="./img/Fashion-Store.png" alt=" Online fashion store - Homepage">
+<a href="#"> Online fashion store -<br> Homepage </a>
+</div>
+<div>
+<img src="./img/reebok_web.png" alt="Reebok Store - Concept">
+<a href="#"> Reebok Store - Concept </a>
           </div>
 
-          <div class="portfolio-item">
-            <section class="portfolio-img">
-              <img src="./img/reebok_web.png" alt="portfolio example 2" />
-            </section>
-            <section class="portfolio-link">
-              <a href="#"> Reebok Store - Concept </a>
-            </section>
-          </div>
-
-          <div class="portfolio-item">
-            <section class="portfolio-img">
-              <img src="./img/braun-landing.png" alt="portfolio example 3" />
-            </section>
-            <section class="portfolio-link">
-              <a href="#"> Braun Landing Page - Concept </a>
-            </section>
+<div>
+<img src="./img/braun-landing.png" alt="Braun Landing Page - Concept">
+<a href="#"> Braun Landing Page - Concept </a>
           </div>
         </div>
       </div>
+      </section>
     </main>
-    <footer>
+
+    <footer id="footer">
       <div class="container">
+        <div id="contacts" class="contacts"
         <h2>Contacts</h2>
-        <p>
-          Want to know more or just chat? <br />
-          You are welcome!
-        </p>
+        <p class="text">Want to know more or just chat?<br>You are welcome!</p>
         <button class="button">Send message</button>
-      </div>
       <ul class="socialmedialist">
         <li>
-          <a href="#"> <img src="./img/linkedin.png" alt="linkedin logo" /></a>
+          <a href="#"> <img src="./img/linkedin.png" alt="linkedin" /></a>
         </li>
         <li>
           <a href="#">
-            <img src="./img/instagram.png" alt="instagram logo"
+            <img src="./img/instagram.png" alt="instagram"
           /></a>
         </li>
         <li>
-          <a href="#"> <img src="./img/behance.png" alt="behance logo" /></a>
+          <a href="#"> <img src="./img/behance.png" alt="behance" /></a>
         </li>
         <li>
-          <a href="#"> <img src="./img/dribbble.png" alt="dribbble logo" /></a>
+          <a href="#"> <img src="./img/dribbble.png" alt="dribbble" /></a>
         </li>
       </ul>
-
-      <div class="likemeon">
-        <p>
-          Like me on <br />
-
+      <p class="likemeon">
+          Like me on <br>
           <a href="#">Linkedin</a>, <a href="#">Instagram</a>,
           <a href="#">Behance</a>,<br />
           <a href="#">Dribbble</a>
         </p>
       </div>
+    </div>
     </footer>
   </body>
 </html>
