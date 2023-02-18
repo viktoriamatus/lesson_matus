@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+}
+.container {
+  background-color: lightgray;
+  max-width: 600px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea,
+button {
+  max-width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+
+.submit {
+  text-align: center;
+}
