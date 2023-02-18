@@ -19,7 +19,6 @@ margin: 0 auto;
 #header{
 height: 30px;
 max width: 90%;
-margin: 0 auto; }
 
 #header .container{
 border-bottom: 1px solid #828282;
@@ -31,6 +30,7 @@ margin: 0 auto;
 }
 
 nav a {
+display: inline-block;
 margin: 0 auto;
 color: #828282;
 text-decoration: none;
@@ -84,7 +84,7 @@ color: #070707;
 
 .textwrapper {
 max-width: 480px;
-margin: 0px auto;
+margin: 0 auto;
 }
 #skills{
 padding-top: 100px;
@@ -173,7 +173,6 @@ gap: 50px;
 .socialmedialist li {
 list-style: none; 
 text-align: center;
-  float:left
 }
 
 footer p {
