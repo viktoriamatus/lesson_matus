@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main>
+   
+
+      <header id="header">
+        <div class="container">
+
+
+      <fieldset>
+        <legend>Fill out the form:</legend>
+        <br /><br />
+   
+          <!-- Enter First name -->
+          <div class="information">
+          <td>First name:</td>
+          <input type="text" id="fisrtname" name="firstname" /> <br /><br />
+     
+
+          <!-- Enter Last name -->
+          <td>Last name:</td>
+          <input type="text" id="lastname" name="lastname" /> <br /><br />
+
+          <!-- Enter email -->
+          <td>Your email:</td>
+          <input type="text" id="email" name="email" /> <br /><br />
+
+          <!-- Enter password -->
+          <td>Enter password:</td>
+          <input type="password" id="password" name="pwd1" /><br /><br />
+
+          <!-- Confirm password -->
+          <td>Confirm password:</td>
+          <input type="password" id="password" name="pwd2" /><br /><br />
+
+          <!-- Select gender -->
+          <td>Select gender:</td>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">male</label>
+
+          <input type="radio" name="gender" id="female" />
+          <label for="female">female</label><br /><br />
+
+          <!-- Enter age -->
+          <td>Age:</td>
+          <input type="text" id="age" maxlength="3" /><br /><br />
+
+          <!-- Select the course -->
+          <td>Course:</td>
+          <select>
+            <option selected disabled>--Select the course--</option>
+            <option>Front-end development</option>
+            <option>Python development</option>
+            <option>QA manual</option>
+            <option>UI/UX design</option>
+            <option>Project management in IT</option>
+            <option>Intro to tech careers</option></select
+          ><br /><br />
+
+          <!-- Enter your full address -->
+          <td>Full address:</td>
+          <textarea id="address" name="address" rows="5" cols="33">
+Country, postcode, region, city, street name and number, apartment number...
+        </textarea
+          ><br /><br />
+
+        </div>
+
+
+
+          <!-- Accept the Privacy Policy and the Terms of Use -->
+          <input type="checkbox" id="terms" name="terms" value="terms" />
+          <label for="terms"
+            >By submitting this form, I accept the
+            <a href="https://beetrootacademy.com/privacy-policy" target="_blank"
+              >Privacy Policy
+            </a>
+            and the
+            <a
+              href="https://beetrootacademy.com/terms-and-conditions"
+              target="_blank"
+              >Terms of Use</a
+            > </label
+          ><br /><br />
+          <div class="submit">
+          <input type="submit" value="Clear form" />
+          <input type="submit" value="Register" /> <br />
+        </div>
+        </div>
+      </fieldset>
+    </header>
+  </main>
+    </form>
+  </body>
+</html>
