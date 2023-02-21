@@ -20,40 +20,45 @@
    
           <!-- Enter First name -->
           <div class="information">
-          <td>First name:</td>
+
+<div class="firstname">
+
+          <label for="firstname">First name:</label>
           <input type="text" id="fisrtname" name="firstname" /> <br /><br />
      
+</div>
 
           <!-- Enter last name -->
-          <td>Last name:</td>
+          <label for="lastname">Last name:</label>
           <input type="text" id="lastname" name="lastname" /> <br /><br />
 
           <!-- Enter email -->
-          <td>Your email:</td>
+          <label for="youremail">Your email:</label>
           <input type="text" id="email" name="email" /> <br /><br />
 
           <!-- Enter password -->
-          <td>Enter password:</td>
+          <label for="enterpassword">Enter password:</label>
           <input type="password" id="password" name="pwd1" /><br /><br />
 
           <!-- Confirm password -->
-          <td>Confirm password:</td>
+          <label for="confirmpassword">Confirm password:</label>
           <input type="password" id="password" name="pwd2" /><br /><br />
 
           <!-- Select gender -->
-          <td>Select gender:</td>
+          <label for="selectgender">Select gender:</label><br /><br />
+
           <input type="radio" name="gender" id="male" />
-          <label for="male">male</label>
+          <label for="male">male</label> 
 
           <input type="radio" name="gender" id="female" />
           <label for="female">female</label><br /><br />
 
           <!-- Enter age -->
-          <td>Age:</td>
+          <label for="age">Age:</label>
           <input type="text" id="age" maxlength="3" /><br /><br />
 
           <!-- Select the course -->
-          <td>Course:</td>
+          <label for="course">Course:</label>
           <select>
             <option selected disabled>--Select the course--</option>
             <option>Front-end development</option>
@@ -65,11 +70,12 @@
           ><br /><br />
 
           <!-- Enter your full address -->
-          <td>Full address:</td>
+          <label for="fulladdress">Full address:</label>
           <textarea id="address" name="address" rows="5" cols="33">
 Country, postcode, region, city, street name and number, apartment number...
         </textarea
           ><br /><br />
+        
         </div>
           <!-- Accept the Privacy Policy and the Terms of Use -->
           <input type="checkbox" id="terms" name="terms" value="terms" />
@@ -85,7 +91,7 @@ Country, postcode, region, city, street name and number, apartment number...
               >Terms of Use</a
             > </label
           ><br /><br />
-          <div class="submit">
+          <div class="submit_option">
           <input type="submit" value="Clear form" />
           <input type="submit" value="Register" /> <br />
         </div>
