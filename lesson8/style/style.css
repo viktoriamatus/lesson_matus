@@ -1,40 +1,51 @@
 * {
   transition: all 0.1s ease-in;
 }
-header-box: hover {
-  color: yellow;
-}
+
 .header-box {
+  font-family: "Roboto";
+  font-style: normal;
   color: #ff8984;
-
   text-align: center;
-  max-width: 793px;
-  min-height: 82px;
-  left: 0px;
-  top: 0px;
+  width: 793px;
+  height: 82px;
   background: #4a4f56;
-
   margin-left: auto;
   margin-right: auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 19px;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  display: block;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .container {
-  max-width: 793px;
-  min-height: 0px auto;
+  width: 793px;
+  height: 507px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
-  padding-bottom: 57px;
   background: #3b3f45;
+  color: #ffffff;
 }
 
 .checkbox-blok:nth-last-of-type(2n + 1) {
   background: #7a7593;
-  border-radius: 25px 25px 25px 25px;
 }
 .checkbox-blok {
   background: #88839e;
-  border-radius: 25px 25px 25px 25px;
 }
 .checkbox-blok {
   padding: 15px 20px;
@@ -56,30 +67,50 @@ section {
 }
 label {
   cursor: default;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
-.custom-checkbox input:checked + label span {
+
+.custom-checkbox input:checked + label {
   text-decoration-line: line-through;
 }
 
-sml-text {
-  position: relative;
-  font-style: 12px;
-  display: inline-block;
-  bottom: 2.5px;
+span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
 }
 
-.bonapetot {
-  text-align: center;
-  background: #4a4f56;
-  color: #ff8984;
-  min-height: 45px;
-  max-width: 500px;
-  display: block;
+ul li:hover {
+  transform: scale(1.2);
+}
 
+.bonapetot_btn {
+  padding: 21px 197px;
+  text-align: center;
+  border: none;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px 25px 25px 25px;
-  padding-top: 12px;
+  color: #ff8984;
+  background: #4a4f56;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+
   margin-top: 45px;
-  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.bonapetot_btn:active {
+  box-shadow: 2px 2px 5px grey;
 }
